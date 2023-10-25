@@ -1,0 +1,57 @@
+body {
+    background-color: deeppink;
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+
+}
+
+.box {
+    background-color: blueviolet;
+    width: 40%;
+    text-align: center;
+    margin: 2% auto;
+    padding: 2% 0;
+}
+
+input{
+    width: 80%;
+    margin: 2% auto;
+    padding: 1%;
+    border: 0;
+}
+
+button{
+    width: 40%;
+    margin: 2% auto;
+    padding: 1%;
+    border-radius: 10px;
+
+}
+
+@media(max-width:768px){
+    body{
+        background-color: hotpink;
+    }
+
+    .box{
+        width: 90%;
+        margin: 5% auto;
+    }
+
+    input{
+        width: 80%;
+        padding: 4%;
+        margin: 2% auto;
+        border-radius: 5px;
+    }
+
+    button{
+        width: 60%;
+        margin: 2% auto;
+        padding: 4%;
+    }
+
+}
